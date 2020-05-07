@@ -1,0 +1,66 @@
+body {
+    background-image: url(./port.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 90%;
+    height: auto;
+}
+
+.nav {
+    list-style: none;
+    color: whitesmoke;
+    float: right;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0.5em;
+    margin-right: 1.4em;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav li:hover {
+    background-color: rgb(39, 85, 233);
+    border-radius: 1em;
+    color: whitesmoke;
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: 900;
+}
+
+h1 {
+    color: whitesmoke;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 6em;
+    margin-left: 4.2em;
+    font-size: 4em;
+    font-weight: 900;
+    font-family: fantasy;
+    letter-spacing: 0.1em;
+}
+
+h1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    color: tomato;
+}
+
+h3 {
+    color: whitesmoke;
+    margin-left: 16.6em;
+    margin-top: -0.6em;
+}
+
+h3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    color: tomato;
+}

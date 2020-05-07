@@ -1,0 +1,33 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.image {
+    text-align: center;
+}
+
+#heading {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(107, 90, 205);
+}
+
+.container {
+    background-color: rgb(107, 90, 205);
+    width: 64%;
+    margin: 0 auto;
+}
+
+.recognise {
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: 5px;
+    color: white;
+}
+
+.rebuild {
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 45px;
+}
